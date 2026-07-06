@@ -1,0 +1,145 @@
+:root {
+  /* Main brand colors - Green */
+  --orb-color-ya-messenger-50: #e8f5e9 !important;
+  --orb-color-ya-messenger-100: #c8e6c9 !important;
+  --orb-color-ya-messenger-200: #a5d6a7 !important;
+  --orb-color-ya-messenger-300: #81c784 !important;
+  --orb-color-ya-messenger-400: #66bb6a !important;
+  --orb-color-ya-messenger-500: #43a047 !important;
+  --orb-color-ya-messenger-600: #388e3c !important;
+  --orb-color-ya-messenger-700: #2e7d32 !important;
+  --orb-color-ya-messenger-800: #1b5e20 !important;
+  --orb-color-ya-messenger-900: #0d4f12 !important;
+  --orb-color-ya-messenger-950: #0a3d0e !important;
+  --orb-color-ya-messenger-alpha-50: rgba(67, 160, 71, 0.05) !important;
+  --orb-color-ya-messenger-alpha-100: rgba(67, 160, 71, 0.1) !important;
+  --orb-color-ya-messenger-alpha-150: rgba(67, 160, 71, 0.15) !important;
+  --orb-color-ya-messenger-alpha-200: rgba(67, 160, 71, 0.2) !important;
+  --orb-color-ya-messenger-alpha-250: rgba(67, 160, 71, 0.25) !important;
+  --orb-color-ya-messenger-alpha-300: rgba(67, 160, 71, 0.3) !important;
+  --orb-color-ya-messenger-alpha-400: rgba(67, 160, 71, 0.4) !important;
+  --orb-color-ya-messenger-alpha-500: rgba(67, 160, 71, 0.5) !important;
+  --orb-color-ya-messenger-alpha-600: rgba(67, 160, 71, 0.6) !important;
+  --orb-color-ya-messenger-alpha-700: rgba(67, 160, 71, 0.7) !important;
+  --orb-color-ya-messenger-alpha-800: rgba(67, 160, 71, 0.8) !important;
+  --orb-color-ya-messenger-alpha-900: rgba(67, 160, 71, 0.9) !important;
+
+  --orb-surface-brand: #43a047 !important;
+  --orb-surface-brand-hovered: #388e3c !important;
+  --orb-surface-brand-pressed: #2e7d32 !important;
+  --orb-surface-brand-light: rgba(67, 160, 71, 0.2) !important;
+  --orb-surface-brand-light-hovered: rgba(67, 160, 71, 0.25) !important;
+  --orb-surface-brand-light-pressed: rgba(67, 160, 71, 0.3) !important;
+  --orb-line-brand: #43a047 !important;
+  --orb-misc-line-focus: #43a047 !important;
+  --orb-text-brand: #43a047 !important;
+  --orb-text-brand-static: #0a3d0e !important;
+  --orb-shadow-brand: rgba(67, 160, 71, 0.2) !important;
+
+  --common-accent: #43a047 !important;
+  --ui-button-bg-accent: #43a047 !important;
+  --common-accent-text: #43a047 !important;
+  --common-accent-fg: #ffffff !important;
+  --ui-link-color: #43a047 !important;
+  --ui-link-color-hovered: #388e3c !important;
+
+  --ui-send-message-button-bg: #43a047 !important;
+  --ui-send-message-button-fg: #ffffff !important;
+
+  --ui-tabs-active-underline-color: #43a047 !important;
+
+  --component-message-button-background-color: #43a047 !important;
+  --component-message-button-background-color-hovered: #388e3c !important;
+  --component-message-button-text-color: #ffffff !important;
+
+  --ui-focus-shadow: 0 0 0 2px rgba(67, 160, 71, 0.4) !important;
+  --ui-focus-shadow-primary: 0 0 0 2px rgba(67, 160, 71, 0.6) !important;
+
+  --common-destructive: #e53935 !important;
+
+  /* Background & surface colors - Dark Green */
+  --common-bg: #0d1f15 !important;
+  --common-bg-secondary: #132a1c !important;
+  --common-settings-bg: #162e1f !important;
+  --common-actionbar: #1a3423 !important;
+  --common-divider: #1f3d29 !important;
+  --common-text-primary: #e0f0e6 !important;
+  --common-text-secondary: #8bb5a0 !important;
+  --conversation-bg: #162e1f !important;
+  --ui-modal-panel-background-color: #162e1f !important;
+  --ui-scrollbar-color: rgba(67, 160, 71, 0.3) !important;
+  --orb-elevation-base: #0d1f15 !important;
+  --orb-surface-base: #132a1c !important;
+  --orb-surface-generic-medium: #1a3423 !important;
+  --incoming-bg: #263d30 !important;
+  --incoming-bg-secondary: #1e3425 !important;
+  --incoming-primary: #e0f0e6 !important;
+  --incoming-secondary: #8bb5a0 !important;
+  --incoming-link: #81c784 !important;
+  --outgoing-bg: #2e7d32 !important;
+  --outgoing-bg-secondary: #256028 !important;
+  --outgoing-primary: #e0f0e6 !important;
+  --outgoing-secondary: #a8d8b5 !important;
+  --outgoing-link: #a5d6a7 !important;
+  --component-filter-pill-background: #1a3423 !important;
+  --component-thread-list-item-entrypoint-active: rgba(67, 160, 71, 0.15) !important;
+  --common-poll-bg: #1a3423 !important;
+  --common-shadow-level-01: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+  --common-shadow-level-02: 0 2px 8px rgba(0, 0, 0, 0.5) !important;
+  --common-shadow-level-03: 0 4px 16px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Override for dark mode */
+.theme_dark:root, .theme_auto:root {
+  --common-accent: #66bb6a !important;
+  --ui-button-bg-accent: #66bb6a !important;
+  --common-accent-text: #81c784 !important;
+  --common-accent-fg: #ffffff !important;
+  --ui-link-color: #66bb6a !important;
+  --ui-link-color-hovered: #81c784 !important;
+  --ui-send-message-button-bg: #66bb6a !important;
+  --ui-send-message-button-fg: #ffffff !important;
+  --ui-tabs-active-underline-color: #66bb6a !important;
+  --component-message-button-background-color: #66bb6a !important;
+  --component-message-button-background-color-hovered: #81c784 !important;
+  --component-message-button-text-color: #ffffff !important;
+  --orb-surface-brand: #66bb6a !important;
+  --orb-surface-brand-hovered: #81c784 !important;
+  --orb-surface-brand-pressed: #a5d6a7 !important;
+  --orb-surface-brand-light: rgba(102, 187, 106, 0.2) !important;
+  --orb-surface-brand-light-hovered: rgba(102, 187, 106, 0.25) !important;
+  --orb-surface-brand-light-pressed: rgba(102, 187, 106, 0.3) !important;
+  --orb-line-brand: #66bb6a !important;
+  --orb-misc-line-focus: #66bb6a !important;
+  --orb-text-brand: #81c784 !important;
+  --orb-text-brand-static: #e8f5e9 !important;
+  --orb-shadow-brand: rgba(102, 187, 106, 0.2) !important;
+
+  /* Background & surface colors - Dark Green */
+  --common-bg: #0b1a11 !important;
+  --common-bg-secondary: #112418 !important;
+  --common-settings-bg: #142a1b !important;
+  --common-actionbar: #18301f !important;
+  --common-divider: #1d3825 !important;
+  --common-text-primary: #e0f0e6 !important;
+  --common-text-secondary: #8bb5a0 !important;
+  --conversation-bg: #142a1b !important;
+  --ui-modal-panel-background-color: #142a1b !important;
+  --ui-scrollbar-color: rgba(102, 187, 106, 0.3) !important;
+  --incoming-bg: #243a2e !important;
+  --incoming-bg-secondary: #1c3024 !important;
+  --incoming-primary: #e0f0e6 !important;
+  --incoming-secondary: #8bb5a0 !important;
+  --incoming-link: #81c784 !important;
+  --outgoing-bg: #2e7d32 !important;
+  --outgoing-bg-secondary: #256028 !important;
+  --outgoing-primary: #e0f0e6 !important;
+  --outgoing-secondary: #a8d8b5 !important;
+  --outgoing-link: #a5d6a7 !important;
+  --component-filter-pill-background: #18301f !important;
+  --component-thread-list-item-entrypoint-active: rgba(102, 187, 106, 0.15) !important;
+  --common-poll-bg: #18301f !important;
+  --common-shadow-level-01: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+  --common-shadow-level-02: 0 2px 8px rgba(0, 0, 0, 0.6) !important;
+  --common-shadow-level-03: 0 4px 16px rgba(0, 0, 0, 0.6) !important;
+}
